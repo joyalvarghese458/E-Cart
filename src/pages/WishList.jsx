@@ -1,6 +1,6 @@
 import React from 'react'
-import { Button, Col, Row } from 'react-bootstrap';
-import Card from 'react-bootstrap/card'
+import { Button, Card, Col, Row } from 'react-bootstrap';
+
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { removeFromWishList } from '../redux/slices/wishlistSlice';

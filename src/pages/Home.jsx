@@ -1,7 +1,6 @@
 import React from 'react'
-import { Col, Row } from 'react-bootstrap'
+import { Card, Col, Row } from 'react-bootstrap'
 import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import useFetch from '../hooks/useFetch';
 import { useDispatch } from 'react-redux';
 import { addToWishlist } from '../redux/slices/wishlistSlice';
